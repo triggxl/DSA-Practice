@@ -1,3 +1,4 @@
+"How many iterations are we performing with data of size n?"
 1.)
 
 Constant Time 0(1)
@@ -15,7 +16,7 @@ function isEven(value) {
     }
 }
 
-A: Constant Time 0(1) since this is a basic arithmetic function/ only takes one value
+A: Constant Time 0(1) since it's only ever going to run through this code once
 
 3. Are you here?
 What is the Big O of the following algorithm? Explain your answer
@@ -43,7 +44,7 @@ function doubleArrayValues(array) {
     return array;
 }
 
-A: Constant Time 0(1) basic arithmetic function
+A: Linear Time O(n) because of the loop
 
 5. Naive search
 What is the Big O of the following algorithm? Explain your answer
@@ -56,6 +57,8 @@ function naiveSearch(array, item) {
     }
 }
 
+A: O(n) given there's a loop that's multiple times
+
 6. Creating pairs:
 What is the Big O of the following algorithm? Explain your answer
 
@@ -67,7 +70,7 @@ function createPairs(arr) {
     }
 }
 
-A: Polynomial time O(n^k) --> O(n^2) levels of looping
+A: Exponential O(n^2) 
 
 7. Compute the sequence
 What does the following algorithm do? What is its runtime complexity? Explain your answer
@@ -103,4 +106,18 @@ function findRandomElement(arr) {
 
 A: Constant Time O(1)
 
+10. What Am I?
+What does the following algorithm do? What is the Big O of the following algorithm? Explain your answer
 
+function isWhat(n) {
+    if (n < 2 || n % 1 !== 0) {
+        return false;
+    }
+    for (let i = 2; i < n; ++i) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+
+//returns true when n is not divisble by 0, starting at 2?
+//O(2n)?

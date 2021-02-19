@@ -70,3 +70,33 @@ class _Node {
     return currNode;
   }
 }
+
+// simplest sequential data structure read from front to end
+// always points to the head
+
+main = new _Node
+// Creating a singly linked list
+function main() {
+  let SLL = ['Apollo', 'Boomer', 'Helo', 'Husker', 'Starbuck'];
+  insertFirst(SLL);
+  SLL.push('Tauhida');
+  SLL.splice(3, 'Husker');
+  function insertBefore() {
+
+  }
+
+  insertBefore('Athena', 'Boomer')
+
+  function insertAfter() {
+
+  }
+  insertAfter('Hotdog', 'Helo')
+
+  function insertAt() {
+
+  }
+  insertAt(3, 'Kat')
+  SLL.pop('Tauhida')
+}
+
+// Supplemental functions for a linked list
