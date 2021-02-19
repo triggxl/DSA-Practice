@@ -90,3 +90,19 @@ function main() {
 }
 
 // Supplemental functions for a linked list
+
+/*
+OOP Review:
+  a blueprint for creating objects --> achieve DRY code
+Encapsulation:
+  properties only visible to the socpe of the class, visible to whoever calls the fx
+  allows for reusability for functions more securely
+Abstraction:
+  creating a model out of something more complex
+  hides the details and just gives us what we need
+  ex: Using a coffee machine to make coffee; Liking a photo on Instagram
+Inheritance:
+  how classes can inherit methods or properties from other classes (hierarchal structure)
+  ex: sub class 'extends' to the 'parent' classs
+Polymorphism:
+*/
