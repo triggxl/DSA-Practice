@@ -79,24 +79,14 @@ main = new _Node
 function main() {
   let SLL = ['Apollo', 'Boomer', 'Helo', 'Husker', 'Starbuck'];
   insertFirst(SLL);
+  // creating fx(s) using LinkedList() to execute functions
+  SLL = new LinkedList();
   SLL.push('Tauhida');
   SLL.splice(3, 'Husker');
-  function insertBefore() {
-
-  }
-
-  insertBefore('Athena', 'Boomer')
-
-  function insertAfter() {
-
-  }
-  insertAfter('Hotdog', 'Helo')
-
-  function insertAt() {
-
-  }
-  insertAt(3, 'Kat')
-  SLL.pop('Tauhida')
+  SSL.insertBefore('Athena', 'Boomer');
+  SSL.insertAfter('Hotdog', 'Helo');
+  SSL.insertAt(3, 'Kat');
+  SLL.pop('Tauhida');
 }
 
 // Supplemental functions for a linked list
