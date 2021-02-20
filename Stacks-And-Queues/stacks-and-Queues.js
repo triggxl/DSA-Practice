@@ -72,7 +72,6 @@ class _Node {
   }
 }
 
-
 class _Queue {
   constructor() {
     this.first = null;
@@ -115,21 +114,40 @@ function starTrek() {
 }
 starTrek()
 // 2. Useful methods for a stack
+// look at the top of the stack without removing it
 function peek() {
   if (this.top = null) {
     this.top = new _Node(data, null);
     return this.top;
   }
 }
+// check if the stack is empty or not
 function isEmpty() {
   if (this.top === null) {
-    return 'Empty!'
+    return { error: { message: 'Empty!' } }
   }
 }
+// display the stack - what is the 1st item in your stack?
 function display() {
+  let displayStack = new _Node(data, value)
+  console.log(displayStack)
+}
+display(0)
 
+/*
+3. Check for palindromes using a stack
+Write an algorithm that uses a stack to determine whether a given input is palindrome or not. Use the following template as a starting point.
+*/
+function is_palindrome(s) {
+  s = s.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
+  // Your code goes here
 }
 
+// True, true, true, false
+console.log(is_palindrome("dad"));
+console.log(is_palindrome("A man, a plan, a canal: Panama"));
+console.log(is_palindrome("1001"));
+console.log(is_palindrome("Tauhida"));
 /*
 Review:
 singly linked -->
