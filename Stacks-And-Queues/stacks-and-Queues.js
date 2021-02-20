@@ -148,6 +148,7 @@ console.log(is_palindrome("dad"));
 console.log(is_palindrome("A man, a plan, a canal: Panama"));
 console.log(is_palindrome("1001"));
 console.log(is_palindrome("Tauhida"));
+// https://stackoverflow.com/questions/59622129/check-if-linked-list-is-palindrome-in-javascript
 /*
 Review:
 singly linked -->
