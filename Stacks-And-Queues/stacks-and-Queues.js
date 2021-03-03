@@ -25,13 +25,9 @@ Dequeue
 
 // console.log(foo)
 
-// function foo() {
+// function foo() {}
 
-// }
-
-// // const foo = () => {
-
-// // }
+// // const foo = () => {}
 // // unless you're using 'var' or the function keyword, variables can't be used until they are called
 
 // Creates a node containing the data and a reference to the next item
@@ -105,61 +101,13 @@ class _Queue {
   }
 }
 
-// Assignment Questions:
-// 1. Create a stack class (above)
-// Create a stack called starTrek and add Kirk, Spock, McCoy, and Scotty to the stack.
-function starTrek() {
-  let roles = ['Kirk', 'Spock', 'McCoy', 'Scotty']
-  return this.first.push(roles)
-}
-starTrek()
-// 2. Useful methods for a stack
-// look at the top of the stack without removing it
-function peek() {
-  if (this.top = null) {
-    this.top = new _Node(data, null);
-    return this.top;
-  }
-}
-// check if the stack is empty or not
-function isEmpty() {
-  if (this.top === null) {
-    return { error: { message: 'Empty!' } }
-  }
-}
-// display the stack - what is the 1st item in your stack?
-function display() {
-  let displayStack = new _Node(data, value)
-  console.log(displayStack)
-}
-display(0)
+// DSA topics be comfortable with:
+// Make me an instance of this classes
+// Add something to the front/back/nth item in list 
+// Manipulate the structure in some thing
+// Explain what the big is of it
+// Recursion: basics like fibonnaci
 
-/*
-3. Check for palindromes using a stack
-Write an algorithm that uses a stack to determine whether a given input is palindrome or not. Use the following template as a starting point.
-*/
-function is_palindrome(s) {
-  s = s.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
-  // Your code goes here
-}
-
-// True, true, true, false
-console.log(is_palindrome("dad"));
-console.log(is_palindrome("A man, a plan, a canal: Panama"));
-console.log(is_palindrome("1001"));
-console.log(is_palindrome("Tauhida"));
-// https://stackoverflow.com/questions/59622129/check-if-linked-list-is-palindrome-in-javascript
-/*
-Review:
-singly linked -->
-<-- doubly linked -->
-'next' variable
-  pointer to the next node
-constructor
-  accepts the variables that hold the data
-head
-  indicates the beginning of a list
-
-  singly --> stack
-  doubly --> queue
-*/
+// Writing by memory and code clarity & pseudocode
+// JavaScript
+// Write a to-do list to think through the problem and how to solve it
